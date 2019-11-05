@@ -4,8 +4,8 @@ metadata:
   name: client-node-port
 spec:
   type: NodePort
-  port:
-    - ports: 3050
+  ports:
+    - port: 3050
       targetPort: 3000
       nodePort: 31515
   selector:
