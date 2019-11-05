@@ -9,4 +9,4 @@ spec:
     - name: client
       image: mattgleich/fib-calc-client
       ports:
-        - containerPort: 3000 
+        - containerPort: 3000
